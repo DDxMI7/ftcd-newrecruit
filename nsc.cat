@@ -207,6 +207,12 @@ Standard FTCD ship classes and systems. WIP — weapon options being expanded.</
        Structural Mass = ceil(Hull Points / 2)
        Drive Mass      = ceil(Thrust / 2)
        ═══════════════════════════════════════════════════════════ -->
+
+  <catalogueLinks>
+    <catalogueLink id="nsc-link-custom-0001" targetId="51af-a23a-9d57"
+                   name="FTCD Ship Designer" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+
   <selectionEntries>
 
     <!-- CORVETTE  Mass 10 | Hull 3 | Thrust 6 | Structural 2 | Drive 3 | Available 5 -->

@@ -5,6 +5,11 @@
            gameSystemRevision="1"
            xmlns="http://www.battlescribe.net/schema/catalogueSchema">
 
+  <catalogueLinks>
+    <catalogueLink id="esu-link-custom-0001" targetId="51af-a23a-9d57"
+                   name="FTCD Ship Designer" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+
   <selectionEntries>
     <selectionEntry id="esu-lenov-ccd3-de2e-699a" name="Lenov (Scoutship, Mass 6)"
                     hidden="false" collective="false" import="true" type="unit">

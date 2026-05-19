@@ -5,6 +5,11 @@
            gameSystemRevision="1"
            xmlns="http://www.battlescribe.net/schema/catalogueSchema">
 
+  <catalogueLinks>
+    <catalogueLink id="fse-link-custom-0001" targetId="51af-a23a-9d57"
+                   name="FTCD Ship Designer" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+
   <selectionEntries>
     <selectionEntry id="fse-mistral-65f4-8a59-7ed9" name="Mistral (Scoutship, Mass 8)"
                     hidden="false" collective="false" import="true" type="unit">

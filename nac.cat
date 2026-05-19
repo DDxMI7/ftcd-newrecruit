@@ -5,6 +5,11 @@
            gameSystemRevision="1"
            xmlns="http://www.battlescribe.net/schema/catalogueSchema">
 
+  <catalogueLinks>
+    <catalogueLink id="nac-link-custom-0001" targetId="51af-a23a-9d57"
+                   name="FTCD Ship Designer" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+
   <selectionEntries>
     <selectionEntry id="nac-harrison-0b0b-cac7-7e42" name="Harrison (Scoutship, Mass 6)"
                     hidden="false" collective="false" import="true" type="unit">

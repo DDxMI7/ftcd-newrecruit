@@ -198,12 +198,13 @@ def make_ship_entry(M: int, shared_ids: dict[str, str]) -> str:
           </selectionEntries>
         </selectionEntryGroup>"""
 
-    # ── Armour entry (repeatable, max 20 boxes) ───────────────────────────────
+    # ── Armour entry (repeatable, up to 20 boxes) ────────────────────────────
+    # maxSelections="-1" = unlimited at group level; inner constraint limits to 20
     armour_group_id = uid("grp", "armour", M)
     armour_eid = uid("armour-box", M)
     armour_group = f"""\
         <selectionEntryGroup id="{armour_group_id}" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="{armour_eid}" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>

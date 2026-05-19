@@ -13,7 +13,7 @@
       "githubUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/custom.cat",
       "bugTrackerUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues",
       "reportBugUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues/new",
-      "sha256": "d68af18f890a137bf2ec1eb577576126ca1d77ffbc0b8935298724240e4f6f60"
+      "sha256": "32d11208bde94677a97fe2bf1ddfe60af19fe03fe07a3ffbbb4115a2362eae75"
     },
     {
       "id": "esu-cat-a4ea-53da-c6f5",
@@ -25,7 +25,7 @@
       "githubUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/esu.cat",
       "bugTrackerUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues",
       "reportBugUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues/new",
-      "sha256": "e36007393cd61524fd221f19b14feaf4f14708cb7e6ac33d13e9d5774ca03113"
+      "sha256": "7835d469a4d8a4bef29c36da7a969784b6a8d1c1b2cc7c1d0e6437c9215943a9"
     },
     {
       "id": "fse-cat-6b31-82d4-6afb",
@@ -37,7 +37,7 @@
       "githubUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/fse.cat",
       "bugTrackerUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues",
       "reportBugUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues/new",
-      "sha256": "86f806641758067009d4aaeeb5b703394da0915e6b2f6cd07ef0842f945e21e5"
+      "sha256": "c14785c8c9563dc40a865e8c057614ee854c9b1b7477a2997a09ed3119c29dcf"
     },
     {
       "id": "ftcd-0001-gs01",
@@ -61,7 +61,7 @@
       "githubUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/nac.cat",
       "bugTrackerUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues",
       "reportBugUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues/new",
-      "sha256": "89005cff6cacdf7f621017df04a159c4960cbb8d79b9c3185228db0b59b4b4bc"
+      "sha256": "50883689383adf39983494eaaab80ac2c2319162da7a384a97536fc2644fcb05"
     },
     {
       "id": "nsc-cat-0001",
@@ -73,7 +73,7 @@
       "githubUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/nsc.cat",
       "bugTrackerUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues",
       "reportBugUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues/new",
-      "sha256": "97c41df26308a05accdf0186f59a143f86ed347d3dac2c9447836fd7c9bf9cb0"
+      "sha256": "d4c9c156ac432a0937c511bc3244ef5423b47aef669323cb4a13779025ec094d"
     }
   ]
 }

@@ -52,7 +52,7 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="acb4-6f42-a0dd" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="a0bd-f4bf-4454" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>
@@ -254,7 +254,7 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="f6e1-913b-babc" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="c2a3-f4e5-8a24" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>
@@ -456,7 +456,7 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="0a60-3253-b8cf" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="7806-21b7-3be2" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>
@@ -658,7 +658,7 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="7600-5957-912d" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="38af-286a-8e5c" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>
@@ -860,7 +860,7 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="15a1-4c3c-5773" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="4e14-2beb-1348" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>
@@ -1062,7 +1062,7 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="34c0-b76c-4d5c" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="ea73-9411-7606" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>
@@ -1264,7 +1264,7 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="9be1-08a7-27c9" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="3879-f67a-76f0" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>
@@ -1466,7 +1466,7 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="8b9e-d73f-6e04" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="b9b0-6624-ec68" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>
@@ -1668,7 +1668,7 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="41f4-a78c-dbe5" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="fcda-f6af-08c0" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>
@@ -1870,7 +1870,7 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="852f-c4dc-5744" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="fe8d-3e82-50ea" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>
@@ -2072,7 +2072,7 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="8f67-d1d6-a535" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="e68b-dcce-6e22" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>
@@ -2274,7 +2274,7 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="a969-0bda-e7c4" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="5a03-93b1-b4bc" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>
@@ -2476,7 +2476,7 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="81c0-c25b-12e0" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="ce2e-f242-0aaa" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>
@@ -2678,7 +2678,7 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="94ac-8e43-c7d2" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="167e-f0a9-6a96" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>
@@ -2880,7 +2880,7 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="ac3f-ce0a-d985" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="ed33-80d7-4eef" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>
@@ -3082,7 +3082,7 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="cbdc-ae24-980e" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="98fc-26d5-9367" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>
@@ -3284,7 +3284,7 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="3a27-39e3-4dd0" name="Armour" hidden="false"
-                             minSelections="0" maxSelections="1">
+                             minSelections="0" maxSelections="-1">
           <selectionEntries>
             <selectionEntry id="53a4-3c5e-fa06" name="Armour (per box)" type="upgrade" hidden="false" collective="false" import="true">
               <constraints>
