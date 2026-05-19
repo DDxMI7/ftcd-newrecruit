@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="esu-cat-a4ea-53da-c6f5" name="Eurasian Solar Union"
            revision="1" battleScribeVersion="2.03"
-           gameSystemId="ftcd-main-0001"
+           gameSystemId="ftcd-0001-gs01"
            gameSystemRevision="1"
            xmlns="http://www.battlescribe.net/schema/catalogueSchema">
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="nac-cat-4022-f7c8-8922" name="New Anglian Confederation"
            revision="1" battleScribeVersion="2.03"
-           gameSystemId="ftcd-main-0001"
+           gameSystemId="ftcd-0001-gs01"
            gameSystemRevision="1"
            xmlns="http://www.battlescribe.net/schema/catalogueSchema">
 

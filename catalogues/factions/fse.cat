@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="fse-cat-6b31-82d4-6afb" name="Federal Stats Europa"
            revision="1" battleScribeVersion="2.03"
-           gameSystemId="ftcd-main-0001"
+           gameSystemId="ftcd-0001-gs01"
            gameSystemRevision="1"
            xmlns="http://www.battlescribe.net/schema/catalogueSchema">
 
