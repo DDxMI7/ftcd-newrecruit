@@ -55,12 +55,11 @@ def file_hash(path: Path) -> str:
     return h.hexdigest()
 
 
-def generate_bsi(files: list[Path], name: str, description: str, output: Path):
+def generate_bsi(files: list[Path], name: str, description: str, output: Path, base_url: str = ''):
     root = ET.Element('dataIndex')
     root.set('battleScribeVersion', '2.03')
     root.set('name', name)
     root.set('description', description)
-    root.set('battleScribeVersion', '2.03')
     root.set('xmlns', 'http://www.battlescribe.net/schema/dataIndexSchema')
 
     data_files = ET.SubElement(root, 'dataFiles')
@@ -79,15 +78,20 @@ def generate_bsi(files: list[Path], name: str, description: str, output: Path):
         file_id   = get_file_id(f)
         file_name = get_file_name(f)
         revision  = get_revision(f)
+        rel_path  = str(f)
+
+        if base_url:
+            data_file_url = f"{base_url.rstrip('/')}/{rel_path}"
+        else:
+            data_file_url = rel_path
 
         entry = ET.SubElement(data_files, 'dataFile')
         entry.set('id',            file_id)
         entry.set('name',          file_name)
         entry.set('type',          file_type)
         entry.set('revision',      revision)
-        # URL points to the raw GitHub file — users set their base URL
-        entry.set('dataFileUrl',   f.name)
-        entry.set('filePath',      str(f))
+        entry.set('dataFileUrl',   data_file_url)
+        entry.set('filePath',      rel_path)
         entry.set('md5',           file_hash(f))
 
     # Pretty-print
@@ -106,6 +110,7 @@ if __name__ == '__main__':
     parser.add_argument('--name', default='Full Thrust Cross Dimensions', help='Game system name')
     parser.add_argument('--description', default='', help='Repository description')
     parser.add_argument('--output', default='index.bsi', help='Output .bsi file path')
+    parser.add_argument('--base-url', default='', help='Base URL prefix for dataFileUrl (e.g. https://raw.githubusercontent.com/USER/REPO/main)')
     args = parser.parse_args()
 
     # Expand globs
@@ -119,5 +124,6 @@ if __name__ == '__main__':
         files=[Path(f) for f in all_files],
         name=args.name,
         description=args.description,
-        output=Path(args.output)
+        output=Path(args.output),
+        base_url=args.base_url,
     )

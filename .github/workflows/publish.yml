@@ -37,6 +37,7 @@ jobs:
           python3 scripts/generate-bsi.py \
             --name "Full Thrust Cross Dimensions" \
             --description "BattleScribe/New Recruit catalogues for Full Thrust Cross Dimensions (FTCD)" \
+            --base-url "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main" \
             --output index.bsi \
             catalogues/system/*.gst catalogues/factions/*.cat
 
