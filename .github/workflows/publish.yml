@@ -4,8 +4,8 @@ on:
   push:
     branches: [main, master]
     paths:
-      - 'catalogues/**/*.gst'
-      - 'catalogues/**/*.cat'
+      - '*.gst'
+      - '*.cat'
   workflow_dispatch:
 
 permissions:
@@ -35,11 +35,11 @@ jobs:
             --description "BattleScribe/New Recruit catalogues for Full Thrust Cross Dimensions (FTCD)" \
             --base-url "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main" \
             --output index.bsi \
-            catalogues/system/*.gst catalogues/factions/*.cat
+            *.gst *.cat
           python3 scripts/generate-catpkg.py \
             --output ftcd.catpkg.json \
             --base-url "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main" \
-            catalogues/system/*.gst catalogues/factions/*.cat
+            *.gst *.cat
 
       - name: Commit generated files to repo
         run: |

@@ -92,7 +92,8 @@ if __name__ == '__main__':
     target = sys.argv[1] if len(sys.argv) > 1 else 'all'
 
     if target == 'all':
-        files = list(Path('catalogues').rglob('*.gst')) + list(Path('catalogues').rglob('*.cat'))
+        files = (list(Path('.').glob('*.gst')) + list(Path('.').glob('*.cat'))
+                 + list(Path('catalogues').rglob('*.gst')) + list(Path('catalogues').rglob('*.cat')))
     else:
         files = list(Path('.').glob(target)) if '*' in target else [Path(target)]
 
