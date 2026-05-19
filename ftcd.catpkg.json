@@ -1,0 +1,67 @@
+{
+  "name": "Full Thrust Cross Dimensions",
+  "battleScribeVersion": "2.03",
+  "description": "BattleScribe/New Recruit catalogues for Full Thrust Cross Dimensions (FTCD)",
+  "repositoryFiles": [
+    {
+      "id": "esu-cat-a4ea-53da-c6f5",
+      "name": "Eurasian Solar Union",
+      "type": "catalogue",
+      "revision": 1,
+      "battleScribeVersion": "2.03",
+      "fileUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/catalogues/factions/esu.cat",
+      "githubUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/catalogues/factions/esu.cat",
+      "bugTrackerUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues",
+      "reportBugUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues/new",
+      "sha256": "e36007393cd61524fd221f19b14feaf4f14708cb7e6ac33d13e9d5774ca03113"
+    },
+    {
+      "id": "fse-cat-6b31-82d4-6afb",
+      "name": "Federal Stats Europa",
+      "type": "catalogue",
+      "revision": 1,
+      "battleScribeVersion": "2.03",
+      "fileUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/catalogues/factions/fse.cat",
+      "githubUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/catalogues/factions/fse.cat",
+      "bugTrackerUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues",
+      "reportBugUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues/new",
+      "sha256": "86f806641758067009d4aaeeb5b703394da0915e6b2f6cd07ef0842f945e21e5"
+    },
+    {
+      "id": "nac-cat-4022-f7c8-8922",
+      "name": "New Anglian Confederation",
+      "type": "catalogue",
+      "revision": 1,
+      "battleScribeVersion": "2.03",
+      "fileUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/catalogues/factions/nac.cat",
+      "githubUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/catalogues/factions/nac.cat",
+      "bugTrackerUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues",
+      "reportBugUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues/new",
+      "sha256": "89005cff6cacdf7f621017df04a159c4960cbb8d79b9c3185228db0b59b4b4bc"
+    },
+    {
+      "id": "nsc-cat-0001",
+      "name": "New Swabian League (NSC)",
+      "type": "catalogue",
+      "revision": 1,
+      "battleScribeVersion": "2.03",
+      "fileUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/catalogues/factions/nsc.cat",
+      "githubUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/catalogues/factions/nsc.cat",
+      "bugTrackerUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues",
+      "reportBugUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues/new",
+      "sha256": "97c41df26308a05accdf0186f59a143f86ed347d3dac2c9447836fd7c9bf9cb0"
+    },
+    {
+      "id": "ftcd-0001-gs01",
+      "name": "Full Thrust Cross Dimensions",
+      "type": "gameSystem",
+      "revision": 1,
+      "battleScribeVersion": "2.03",
+      "fileUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/catalogues/system/full-thrust-cross-dimensions.gst",
+      "githubUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/catalogues/system/full-thrust-cross-dimensions.gst",
+      "bugTrackerUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues",
+      "reportBugUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues/new",
+      "sha256": "0bc42e50bb9b3fd7b3d0cbadde62e259268b099ae9f7e48218645b832319a054"
+    }
+  ]
+}
