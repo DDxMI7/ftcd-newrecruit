@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataIndex xmlns="http://www.battlescribe.net/schema/dataIndexSchema" battleScribeVersion="2.03" name="Full Thrust Cross Dimensions" description="BattleScribe/New Recruit catalogues for Full Thrust Cross Dimensions (FTCD)">
   <dataFiles>
-    <dataFile id="51af-a23a-9d57" name="FTCD Ship Designer" type="catalogue" revision="1" dataFileUrl="https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/custom.cat" filePath="custom.cat" md5="09c5f19a0972b619e1c876b713ce3662"/>
+    <dataFile id="51af-a23a-9d57" name="FTCD Ship Designer" type="catalogue" revision="2" dataFileUrl="https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/custom.cat" filePath="custom.cat" md5="f1ba629bfec84011791047453315962f"/>
     <dataFile id="esu-cat-a4ea-53da-c6f5" name="Eurasian Solar Union" type="catalogue" revision="1" dataFileUrl="https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/esu.cat" filePath="esu.cat" md5="4aa27eeeda9b5f5e34087bf770f73a27"/>
     <dataFile id="fse-cat-6b31-82d4-6afb" name="Federal Stats Europa" type="catalogue" revision="1" dataFileUrl="https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/fse.cat" filePath="fse.cat" md5="d3d74e36da284a6966f4493abcd7daec"/>
     <dataFile id="ftcd-0001-gs01" name="Full Thrust Cross Dimensions" type="gameSystem" revision="1" dataFileUrl="https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/full-thrust-cross-dimensions.gst" filePath="full-thrust-cross-dimensions.gst" md5="e1770246c22d62da4808fcc8935c19f2"/>

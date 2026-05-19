@@ -7,13 +7,13 @@
       "id": "51af-a23a-9d57",
       "name": "FTCD Ship Designer",
       "type": "catalogue",
-      "revision": 1,
+      "revision": 2,
       "battleScribeVersion": "2.03",
       "fileUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/custom.cat",
       "githubUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/custom.cat",
       "bugTrackerUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues",
       "reportBugUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues/new",
-      "sha256": "32d11208bde94677a97fe2bf1ddfe60af19fe03fe07a3ffbbb4115a2362eae75"
+      "sha256": "16bb399af5e623efbdca2c25a2eb42669be8b5cc344ce3821549287b92c82f05"
     },
     {
       "id": "esu-cat-a4ea-53da-c6f5",
