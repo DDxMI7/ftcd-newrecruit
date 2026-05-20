@@ -6,6 +6,6 @@
     <dataFile id="fse-cat-6b31-82d4-6afb" name="Federal Stats Europa" type="catalogue" revision="1" dataFileUrl="https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/fse.cat" filePath="fse.cat" md5="d3d74e36da284a6966f4493abcd7daec"/>
     <dataFile id="ftcd-0001-gs01" name="Full Thrust Cross Dimensions" type="gameSystem" revision="1" dataFileUrl="https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/full-thrust-cross-dimensions.gst" filePath="full-thrust-cross-dimensions.gst" md5="e1770246c22d62da4808fcc8935c19f2"/>
     <dataFile id="nac-cat-4022-f7c8-8922" name="New Anglian Confederation" type="catalogue" revision="1" dataFileUrl="https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/nac.cat" filePath="nac.cat" md5="238c5fbda0e845228cbe216559386df4"/>
-    <dataFile id="nsc-cat-0001" name="New Swabian League (NSC)" type="catalogue" revision="1" dataFileUrl="https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/nsc.cat" filePath="nsc.cat" md5="c3e865b04f2bb1a375aff83f5d65f606"/>
+    <dataFile id="nsl-cat-0001" name="Neu Swabian League (NSL)" type="catalogue" revision="1" dataFileUrl="https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/nsl.cat" filePath="nsl.cat" md5="86cb6e90759421898b3f2be4eb48351b"/>
   </dataFiles>
 </dataIndex>

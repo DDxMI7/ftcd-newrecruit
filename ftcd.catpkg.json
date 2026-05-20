@@ -64,16 +64,16 @@
       "sha256": "50883689383adf39983494eaaab80ac2c2319162da7a384a97536fc2644fcb05"
     },
     {
-      "id": "nsc-cat-0001",
-      "name": "New Swabian League (NSC)",
+      "id": "nsl-cat-0001",
+      "name": "Neu Swabian League (NSL)",
       "type": "catalogue",
       "revision": 1,
       "battleScribeVersion": "2.03",
-      "fileUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/nsc.cat",
-      "githubUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/nsc.cat",
+      "fileUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/nsl.cat",
+      "githubUrl": "https://raw.githubusercontent.com/DDxMI7/ftcd-newrecruit/main/nsl.cat",
       "bugTrackerUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues",
       "reportBugUrl": "https://github.com/DDxMI7/ftcd-newrecruit/issues/new",
-      "sha256": "d4c9c156ac432a0937c511bc3244ef5423b47aef669323cb4a13779025ec094d"
+      "sha256": "c0ee3352712276737074bc66c21fccf851cc10715b962f10c96681323acd750c"
     }
   ]
 }
