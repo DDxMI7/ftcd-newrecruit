@@ -14,57 +14,50 @@ Catalogue data by the FTCD community. Not officially endorsed by GZG.</readme>
   </publications>
 
   <costTypes>
-    <costType id="cost-pts-0001" name="pts" defaultCostLimit="-1.0" hidden="false"/>
-    <costType id="cost-mass-0001" name="Mass" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="7d62-4668-5257" name="pts"  defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="4771-3924-56de" name="Mass" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
 
   <profileTypes>
-    <profileType id="pt-shipstats-0001" name="Ship Stats">
+    <profileType id="347a-bc89-60a9" name="Ship Stats">
       <characteristicTypes>
-        <characteristicType id="ct-thrust-0001" name="Thrust Rating"/>
-        <characteristicType id="ct-hull-0001" name="Hull Points"/>
-        <characteristicType id="ct-firecons-0001" name="Firecons"/>
-        <characteristicType id="ct-screen-0001" name="Screen Level"/>
-        <characteristicType id="ct-armour-0001" name="Armour Grade"/>
+        <characteristicType id="1045-6c03-1199" name="Thrust"/>
+        <characteristicType id="2ff8-07a0-ca6e" name="Hull Points"/>
+        <characteristicType id="771f-37f8-a88b" name="Firecons"/>
+        <characteristicType id="d6cb-8b81-48f6" name="Screens"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="pt-weapon-0001" name="Weapon System">
+    <profileType id="e5fe-386e-cbe0" name="Weapon">
       <characteristicTypes>
-        <characteristicType id="ct-wclass-0001" name="Class"/>
-        <characteristicType id="ct-range-0001" name="Max Range (MU)"/>
-        <characteristicType id="ct-wdice-0001" name="Damage Dice"/>
-        <characteristicType id="ct-arcs-0001" name="Fire Arcs"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="pt-rule-0001" name="Special Rule">
-      <characteristicTypes>
-        <characteristicType id="ct-ruledesc-0001" name="Description"/>
+        <characteristicType id="8e6f-96da-1dac" name="Class"/>
+        <characteristicType id="51be-ce4a-2bbd" name="Max Range (MU)"/>
+        <characteristicType id="d860-b2b9-437a" name="Damage Dice"/>
+        <characteristicType id="8e45-571a-a876" name="Fire Arcs"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
 
   <categoryEntries>
-    <categoryEntry id="cat-ship-0001"   name="Ship"           hidden="false"/>
-    <categoryEntry id="cat-weapon-0001" name="Weapon System"  hidden="false"/>
-    <categoryEntry id="cat-drive-0001"  name="Drive"          hidden="false"/>
-    <categoryEntry id="cat-screen-0001" name="Screen"         hidden="false"/>
-    <categoryEntry id="cat-pds-0001"    name="PDS"            hidden="false"/>
-    <categoryEntry id="cat-special-0001" name="Special System" hidden="false"/>
+    <categoryEntry id="876f-9a8d-ca03" name="Ship"            hidden="false"/>
+    <categoryEntry id="163f-ce9f-f57f" name="Weapon"          hidden="false"/>
+    <categoryEntry id="3fe9-8946-3e85" name="Drive"           hidden="false"/>
+    <categoryEntry id="961b-8d52-88f1" name="Support"         hidden="false"/>
+    <categoryEntry id="6273-93cd-59bf" name="Defence"         hidden="false"/>
   </categoryEntries>
 
   <forceEntries>
     <forceEntry id="fe-fleet-0001" name="Fleet" hidden="false">
       <rules>
         <rule id="rule-construction-0001" name="Ship Construction"
-              publicationId="pub-ftcd-0001"
+              publicationId="3900-a3b1-799d"
               description="Each ship has a mass (hull size). The total mass of all installed systems must not exceed the ship's available mass budget. Available mass = Hull Mass - Structural Mass - Drive Mass. Structural Mass = ceil(Hull Points / 2). Drive Mass = ceil(Thrust Rating / 2)."/>
         <rule id="rule-cpv-0001" name="Combat Point Value (CPV)"
-              publicationId="pub-ftcd-0001"
+              publicationId="3900-a3b1-799d"
               description="The pts cost shown is the Combat Point Value (CPV) of each system. Fleet sizes are agreed between players as a CPV limit."/>
       </rules>
       <categoryLinks>
         <categoryLink id="cl-ship-fleet-0001" name="Ships" hidden="false"
-                      targetId="cat-ship-0001" primary="true">
+                      targetId="876f-9a8d-ca03" primary="true">
           <constraints>
             <constraint id="con-minship-0001" type="min" value="1"
                         field="selections" scope="force" shared="true" includeChildSelections="false"/>

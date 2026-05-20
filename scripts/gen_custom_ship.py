@@ -30,7 +30,7 @@ PTS_ID  = "7d62-4668-5257"
 MASS_ID = "4771-3924-56de"
 GS_ID   = "ftcd-0001-gs01"
 CAT_ID  = "51af-a23a-9d57"          # keep stable so faction catalogueLinks don't break
-SHIP_CAT = "cat-ship-0001"           # category defined in .gst
+SHIP_CAT = "876f-9a8d-ca03"          # category defined in .gst
 
 # ─── All valid FTCD ship masses ───────────────────────────────────────────────
 # Rules: any 4-10; must be even if > 10; max 300
